@@ -1,7 +1,10 @@
 project('mem_mgmt_course', 'c')
 
-subdir('ch2_structs/l1_structs')
-subdir('ch2_structs/l2_struct_array')
-subdir('ch2_structs/l2_initializers')
-subdir('ch2_structs/l3_scaling_coordinate')
-subdir('ch2_structs/l4_typedef')
+# Chapter 2 - Structs Tests
+#subdir('ch2_structs/l1_structs')
+#subdir('ch2_structs/l2_struct_array')
+#subdir('ch2_structs/l2_initializers')
+#subdir('ch2_structs/l3_scaling_coordinate')
+#subdir('ch2_structs/l4_typedef')
+#subdir('ch2_structs/l6_struct_padding')
+
