@@ -8,3 +8,5 @@ project('mem_mgmt_course', 'c')
 #subdir('ch2_structs/l4_typedef')
 #subdir('ch2_structs/l6_struct_padding')
 
+# Chapter 2 - Pointer Tests
+subdir('ch3_pointers/l1_memory')
