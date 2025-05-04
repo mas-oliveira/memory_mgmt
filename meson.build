@@ -11,3 +11,4 @@ project('mem_mgmt_course', 'c')
 # Chapter 2 - Pointer Tests
 subdir('ch3_pointers/l1_memory')
 subdir('ch3_pointers/l5_why_pointers')
+subdir('ch3_pointers/l6_pointer_basics')
