@@ -5,6 +5,4 @@
 - A aula 2 struct_array foi só representativa não fazendo parte do curso, mas sim foi feito para ver como se compilava as cenas com o meson
 
 Para correr os testes (exemplo):
-> meson setup builddir --reconfigure
-> meson compile -C builddir
-> ./builddir/{chN_Name}/{lN_Name}/{executable_meson_build_name}
+> ./build_and_run_tests.sh #after adding the new sub dir 
