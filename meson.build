@@ -8,7 +8,7 @@ project('mem_mgmt_course', 'c')
 #subdir('ch2_structs/l4_typedef')
 #subdir('ch2_structs/l6_struct_padding')
 
-# Chapter 2 - Pointer Tests
+# Chapter 3 - Pointer Tests
 subdir('ch3_pointers/l1_memory')
 subdir('ch3_pointers/l5_why_pointers')
 subdir('ch3_pointers/l6_pointer_basics')
@@ -16,3 +16,6 @@ subdir('ch3_pointers/l8_arrays')
 subdir('ch3_pointers/l14_c_strings')
 subdir('ch3_pointers/l15_c_string_library')
 subdir('ch3_pointers/l17_mutual_structs')
+
+# Chapter 4 - Enums
+subdir('ch4_enums/l1_enums')
