@@ -1,1 +1,5 @@
-unsigned long size_of_addr(long long i);
+typedef enum Color {
+    RED,
+    GREEN,
+    BLUE
+} color_t;

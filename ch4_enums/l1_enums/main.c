@@ -1,27 +1,38 @@
 #include "munit.h"
-
 #include "color.h"
 
-munit_case(RUN, test_color_enum1, {
-  assert_int(RED, ==, 0, "RED is defined as 0");
-  assert_int(GREEN, ==, 1, "GREEN is defined as 1");
-  assert_int(BLUE, ==, 2, "BLUE is defined as 2");
-});
+static MunitResult test_color_enum1(const MunitParameter params[], void* data) {
+  munit_assert_int(RED, ==, 0);
+  munit_assert_int(GREEN, ==, 1);
+  munit_assert_int(BLUE, ==, 2);
+  return MUNIT_OK;
+}
 
-munit_case(SUBMIT, test_color_enum2, {
-  assert_int(RED, !=, 4, "RED is not defined as 4");
-  assert_int(GREEN, !=, 2, "GREEN is not defined as 2");
-  assert_int(BLUE, !=, 0, "BLUE is not defined as 0");
-});
+static MunitResult test_color_enum2(const MunitParameter params[], void* data) {
+  munit_assert_int(RED, !=, 4);
+  munit_assert_int(GREEN, !=, 2);
+  munit_assert_int(BLUE, !=, 0);
+  return MUNIT_OK;
+}
 
-int main() {
-  MunitTest tests[] = {
-    munit_test("/are_defined", test_color_enum1),
-    munit_test("/are_defined_correctly", test_color_enum2),
-    munit_null_test,
-  };
+static MunitTest tests[] = {
+  { "/are_defined", test_color_enum1,
+    NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL },
 
-  MunitSuite suite = munit_suite("colors", tests);
+  { "/are_defined_correctly", test_color_enum2,
+    NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL },
 
-  return munit_suite_main(&suite, NULL, 0, NULL);
+  { NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL }
+};
+
+static const MunitSuite suite = {
+  "/colors",     // suite name
+  tests,         // tests
+  NULL,          // no sub-suites
+  1,             // iterations
+  MUNIT_SUITE_OPTION_NONE
+};
+
+int main(int argc, char* argv[]) {
+  return munit_suite_main(&suite, NULL, argc, argv);
 }
