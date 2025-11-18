@@ -19,3 +19,4 @@ subdir('ch3_pointers/l17_mutual_structs')
 
 # Chapter 4 - Enums
 subdir('ch4_enums/l1_enums')
+subdir('ch4_enums/l2_non_default_values')
