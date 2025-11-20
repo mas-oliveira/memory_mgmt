@@ -21,3 +21,6 @@ subdir('ch3_pointers/l17_mutual_structs')
 subdir('ch4_enums/l1_enums')
 subdir('ch4_enums/l2_non_default_values')
 subdir('ch4_enums/l3_enum_switch_case')
+
+# Chapter 5 - Unions
+subdir('ch5_unions/l1_union')
