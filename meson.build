@@ -24,3 +24,6 @@ subdir('ch4_enums/l3_enum_switch_case')
 
 # Chapter 5 - Unions
 subdir('ch5_unions/l1_union')
+
+# Chapter 6 - Stack and Heap
+subdir('ch6_stack_heap/l5_the_heap')
