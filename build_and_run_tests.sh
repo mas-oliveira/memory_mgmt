@@ -30,7 +30,14 @@ meson compile -C builddir || exit 1
 #find builddir/ch5_unions -type f -perm +111 -exec echo "▶️ A correr {}" \; -exec {} \;
 
 
-echo "🚀 A correr todos os testes em subdiretórios de ch6_stack_heap..."
+
+#echo "🚀 A correr todos os testes em subdiretórios de ch6_stack_heap..."
 
 # Percorre todos os ficheiros executáveis dentro de builddir/ch3_pointers/
-find builddir/ch6_stack_heap -type f -perm +111 -exec echo "▶️ A correr {}" \; -exec {} \;
+#find builddir/ch6_stack_heap -type f -perm +111 -exec echo "▶️ A correr {}" \; -exec {} \;
+
+
+
+echo "🚀 A correr todos os testes em subdiretórios de ch7_advanced_pointers..."
+
+find builddir/ch7_advanced_pointers -type f -perm +111 -exec echo "▶️ A correr {}" \; -exec {} \;

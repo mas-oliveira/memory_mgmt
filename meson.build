@@ -28,3 +28,6 @@ subdir('ch5_unions/l1_union')
 # Chapter 6 - Stack and Heap
 subdir('ch6_stack_heap/l5_the_heap')
 subdir('ch6_stack_heap/l6_malloc')
+
+# Chapter 7 - Advanced Pointers
+subdir('ch7_advanced_pointers/l1_pointers_pointers')
