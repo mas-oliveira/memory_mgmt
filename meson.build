@@ -32,3 +32,4 @@ subdir('ch6_stack_heap/l6_malloc')
 # Chapter 7 - Advanced Pointers
 subdir('ch7_advanced_pointers/l1_pointers_pointers')
 subdir('ch7_advanced_pointers/l2_array_of_pointers')
+subdir('ch7_advanced_pointers/l3_void_pointers')
