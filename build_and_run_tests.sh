@@ -38,6 +38,12 @@ meson compile -C builddir || exit 1
 
 
 
-echo "🚀 A correr todos os testes em subdiretórios de ch7_advanced_pointers..."
+#echo "🚀 A correr todos os testes em subdiretórios de ch7_advanced_pointers..."
 
-find builddir/ch7_advanced_pointers -type f -perm +111 -exec echo "▶️ A correr {}" \; -exec {} \;
+#find builddir/ch7_advanced_pointers -type f -perm +111 -exec echo "▶️ A correr {}" \; -exec {} \;
+
+
+
+echo "🚀 A correr todos os testes em subdiretórios de ch8_stack..."
+
+find builddir/ch8_stack -type f -perm +111 -exec echo "▶️ A correr {}" \; -exec {} \;
