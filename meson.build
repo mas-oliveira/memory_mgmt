@@ -40,3 +40,4 @@ subdir('ch7_advanced_pointers/l6_generic_swap')
 # Chapter 8 - Stack
 subdir('ch8_stack/l1_low_level_stack')
 subdir('ch8_stack/l2_stack_push')
+subdir('ch8_stack/l3_stack_pop')
