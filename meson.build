@@ -48,3 +48,4 @@ subdir('ch8_stack/l6_multiple_types')
 # Chapter 9 - Objects
 subdir('ch9_objects/l1_objects')
 subdir('ch9_objects/l2_integers')
+subdir('ch9_objects/l3_floats')
