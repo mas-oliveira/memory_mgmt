@@ -58,3 +58,5 @@ subdir('ch9_objects/l9_manipulating_objects')
 
 # Chapter 10 - Refcount
 subdir('ch10_refcount/l2_refcounting')
+subdir('ch10_refcount/l3_increment')
+subdir('ch10_refcount/l4_decrement_and_free')
