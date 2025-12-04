@@ -62,3 +62,6 @@ subdir('ch10_refcount/l3_increment')
 subdir('ch10_refcount/l4_decrement_and_free')
 subdir('ch10_refcount/l5_vectors')
 subdir('ch10_refcount/l6_arrays')
+
+# Chapter 11 - Mark and Sweep
+subdir('ch11_mark_and_sweep/l1_cycles')
