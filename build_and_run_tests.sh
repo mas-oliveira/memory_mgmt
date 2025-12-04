@@ -50,6 +50,13 @@ meson compile -C builddir || exit 1
 
 
 
-echo "🚀 A correr todos os testes em subdiretórios de ch9_objects..."
+#echo "🚀 A correr todos os testes em subdiretórios de ch9_objects..."
 
-find builddir/ch9_objects -type f -perm +111 -exec echo "▶️ A correr {}" \; -exec {} \;
+#find builddir/ch9_objects -type f -perm +111 -exec echo "▶️ A correr {}" \; -exec {} \;
+
+
+
+
+echo "🚀 A correr todos os testes em subdiretórios de ch10_refcount..."
+
+find builddir/ch10_refcount -type f -perm +111 -exec echo "▶️ A correr {}" \; -exec {} \;

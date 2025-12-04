@@ -55,3 +55,6 @@ subdir('ch9_objects/l6_arrays')
 subdir('ch9_objects/l7_get_and_set')
 subdir('ch9_objects/l8_length')
 subdir('ch9_objects/l9_manipulating_objects')
+
+# Chapter 10 - Refcount
+subdir('ch10_refcount/l2_refcounting')
