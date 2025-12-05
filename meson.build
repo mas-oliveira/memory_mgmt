@@ -65,3 +65,5 @@ subdir('ch10_refcount/l6_arrays')
 
 # Chapter 11 - Mark and Sweep
 subdir('ch11_mark_and_sweep/l1_cycles')
+#subdir('ch11_mark_and_sweep/l2_pros_and_cons')
+subdir('ch11_mark_and_sweep/l3_stack_frames')
